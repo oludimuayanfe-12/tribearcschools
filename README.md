@@ -1,89 +1,106 @@
-# 🎓 TribeArc Schools Official Website
+<p align="center">
+  <img src="assets/banner.png" alt="TribeArc Schools Banner" width="100%">
+</p>
 
-Welcome to the official GitHub repository of the **TribeArc Schools** website.
+<h1 align="center">🎓 TribeArc Schools Official Website</h1>
 
-This project is a modern, responsive, and interactive school website developed to showcase the school's vision, mission, core values, contact information, and provide easy access to the School Portal Management System (SPMS).
+<p align="center">
+  <strong>Raising Nation Builders Through Technology, Leadership, Innovation & Excellence.</strong>
+</p>
 
----
-
-## 🌐 Live Website
-
-https://tribearc-schools.netlify.app/
+<p align="center">
+  <a href="https://tribearc-schools.netlify.app/">🌐 Live Website</a> •
+  <a href="https://portal.tribearcschools.com.ng">🎓 School Portal</a>
+</p>
 
 ---
 
 ## 📖 About TribeArc Schools
 
-**Motto:**
-> Raising Nation Builders
+Welcome to the official GitHub repository of the **TribeArc Schools** website.
 
-TribeArc Schools is committed to transforming education through technology, leadership, innovation, and excellence. Our goal is to nurture students into globally competitive, financially independent, and purpose-driven nation builders.
+This project showcases the school's vision, mission, values, contact information, and provides parents and students with quick access to the **School Portal Management System (SPMS)**.
 
----
-
-## ✨ Website Features
-
-- Modern responsive design
-- Animated loading screen
-- Dark & Light mode
-- Smooth scrolling navigation
-- Animated background effects
-- Glassmorphism UI
-- Interactive cards
-- About Us section
-- Core Values section
-- Contact information
-- School Portal Management System (SPMS) link
-- Mobile-friendly layout
+Our goal is to provide a modern, responsive, and engaging online presence that reflects the excellence of TribeArc Schools.
 
 ---
 
-## 🛠️ Technologies Used
+## 🌟 Motto
+
+> **Raising Nation Builders**
+
+---
+
+## 🎯 Vision
+
+To build a new generation of innovative, technologically skilled, globally competitive, financially independent, and purpose-driven Nation Builders.
+
+---
+
+## 🚀 Mission
+
+To unleash the potential of every student by empowering them to become the very best version of themselves through quality education, technology, leadership, innovation, and excellence.
+
+---
+
+# ✨ Features
+
+- 🌙 Dark & Light Mode
+- ⚡ Animated Loading Screen
+- 🎨 Modern Glassmorphism UI
+- 📱 Fully Responsive Design
+- 💫 Smooth Scroll Animations
+- ✨ Interactive User Experience
+- 🏫 About TribeArc Schools
+- 💡 Core Values Section
+- 📞 Contact Information
+- 🎓 School Portal (SPMS)
+- 📍 Mobile-Friendly Layout
+
+---
+
+# 🛠 Built With
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript
 - Font Awesome
 - Google Fonts (Poppins)
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 TribeArc-Schools/
 │
-├── index.html
-├── README.md
+├── assets/
+│   └── banner.png
 ├── static/
 │   ├── images/
-│   └── assets/
+│   └── ...
+├── index.html
+├── README.md
 └── LICENSE
 ```
 
 ---
 
-## 🚀 Deployment
+# 🚀 Live Demo
 
-This website is deployed using **Netlify**.
-
-To run locally:
-
-```bash
-git clone https://github.com/your-username/your-repository.git
-```
-
-Open
-
-```
-index.html
-```
-
-in your web browser.
+🌐 https://tribearc-schools.netlify.app/
 
 ---
 
-## 📞 Contact
+# 🎓 School Portal
+
+Parents and students can access the School Portal here:
+
+https://portal.tribearcschools.com.ng
+
+---
+
+# 📍 Contact Information
 
 **TribeArc Schools**
 
@@ -93,44 +110,43 @@ in your web browser.
 
 📱 +234 704 212 4554
 
-🌐 School Portal
+---
 
-https://portal.tribearcschools.com.ng
+# 💡 Core Values
+
+- 💛 Innovation
+- 💛 Technology
+- 💛 Truthfulness
+- 💛 Leadership
+- 💛 Excellence
 
 ---
 
-## 🎯 Vision
+# 📸 Website Preview
 
-To build a new generation of innovative, technologically skilled, globally competitive, and financially independent nation builders.
-
----
-
-## 🎯 Mission
-
-To unleash the potential of every student by empowering them to become the very best version of themselves.
+<p align="center">
+  <img src="assets/banner.png" alt="Website Preview" width="100%">
+</p>
 
 ---
 
-## 💡 Core Values
+# 🤝 Contributing
 
-- Innovation
-- Technology
-- Truthfulness
-- Leadership
-- Excellence
+This project is maintained by the **TribeArc Schools Development Team**.
+
+If you are a member of the development team, feel free to fork the repository, create a feature branch, and submit a pull request.
 
 ---
 
-## 👨‍💻 Developed By
+# 📜 License
 
-Created by the Students of TribeArc Schools.
-
-Maintained by the TribeArc Schools Development Team.
-
----
-
-## 📄 License
-
-This project is intended for the official use of TribeArc Schools.
+This project is the official website of **TribeArc Schools**.
 
 © TribeArc Schools. All Rights Reserved.
+
+---
+
+<p align="center">
+Made with ❤️ for <strong>TribeArc Schools</strong><br>
+<i>Raising Nation Builders</i>
+</p>
