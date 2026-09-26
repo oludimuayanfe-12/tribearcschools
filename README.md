@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://tribearc-schools.netlify.app/">🌐 Live Website</a> •
+  <a href="https://tribearcschools.netlify.app/">🌐 Live Website</a> •
   <a href="https://portal.tribearcschools.com.ng">🎓 School Portal</a>
 </p>
 
@@ -88,7 +88,7 @@ TribeArc-Schools/
 
 # 🚀 Live Demo
 
-🌐 https://tribearc-schools.netlify.app/
+🌐 https://tribearcschools.netlify.app/
 
 ---
 
