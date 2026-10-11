@@ -1038,6 +1038,38 @@ footer{
 
 }
 
+
+@media (max-width:768px){
+header{flex-direction:column;gap:15px;padding:15px}
+nav ul{flex-wrap:wrap;justify-content:center;gap:10px}
+.logo img{width:55px;height:55px}
+.logo h1{font-size:20px}
+.typing{font-size:34px;white-space:normal;border:none;width:auto;animation:none}
+.hero p,p{font-size:16px}
+section{padding:70px 20px}
+.card{padding:25px}
+img{max-width:100%;height:auto;display:block}
+.portal-link{display:block;width:100%;text-align:center}
+.contact-item{flex-wrap:wrap;word-break:break-word}
+}
+@media (max-width:480px){
+nav ul{flex-direction:column;align-items:center}
+.typing{font-size:28px}
+h2{font-size:24px}
+}
+
+
+.menu-toggle{display:none;background:none;border:2px solid var(--gold);color:var(--gold);padding:8px 12px;border-radius:10px;font-size:22px;cursor:pointer}
+@media(max-width:768px){
+.menu-toggle{display:block}
+nav{display:none;width:100%}
+nav.active{display:block;animation:fadeIn .25s}
+nav ul{flex-direction:column;align-items:center}
+header{align-items:stretch}
+.header-top{display:flex;justify-content:space-between;align-items:center}
+}
+@keyframes fadeIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+
 </style>
 
 </head>
@@ -1062,7 +1094,7 @@ TRIBEARC SCHOOLS
 
 <!-- HEADER -->
 <header>
-
+<div class="header-top">
 <div class="logo">
 
 <img src="../static/images/TribeArc.png" alt="TribeArc Logo">
@@ -1070,8 +1102,9 @@ TRIBEARC SCHOOLS
 <h1>TribeArc Schools</h1>
 
 </div>
-
-<nav>
+<button class="menu-toggle" onclick="toggleMenu()">☰</button>
+</div>
+<nav id="mobileNav">
 
 <ul>
 
@@ -1371,6 +1404,20 @@ function revealSections(){
 window.addEventListener("scroll", revealSections);
 
 revealSections();
+
+
+function toggleMenu(){
+ const nav=document.getElementById('mobileNav');
+ const btn=document.querySelector('.menu-toggle');
+ nav.classList.toggle('active');
+ btn.textContent=nav.classList.contains('active')?'✕':'☰';
+}
+document.querySelectorAll('#mobileNav a').forEach(a=>a.addEventListener('click',()=>{
+ if(window.innerWidth<=768){
+  document.getElementById('mobileNav').classList.remove('active');
+  document.querySelector('.menu-toggle').textContent='☰';
+ }
+}));
 
 </script>
 
